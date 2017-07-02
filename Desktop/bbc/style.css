@@ -1,0 +1,215 @@
+/*css for nav bar*/
+span{
+     border-right: 1px solid #bb4545;
+    display: block;
+    padding-right: 12px;
+}
+.whitespan{
+    border-right: 1px solid black;
+    display: block;
+    padding-right: 12px;
+}
+.divstyle{
+    margin-left:-10px;
+    margin-right: -10px;
+}
+.navstyle{
+     padding: 0px;
+     border:0px;
+     margin-top: -15px;
+     height: 16px;
+     padding-top: 0px;
+     padding-bottom: 6px; 
+     /*margin-bottom: -5px;*/   
+}
+.navul {
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0;*/
+    overflow: hidden;
+    background-color: #fff;
+    font: inherit;
+}
+
+.navli {
+    float: left;
+    list-style-position:inside;
+    border: 0.3px solid grey;
+    border-top:hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+    line-height: 0.5px;
+}
+
+.navli a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 21px;
+    padding-right: 10px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size:13px;
+    font-weight: bold;
+    /*border-color: black;*/
+    /*font-weight: bold;*/
+    font-family: Helvetica, Arial, freesans, sans-serif;
+}
+.navli i {
+    
+    color: #333;
+    text-align: center;
+    padding-right: 10px;
+    line-height: 2px;
+    text-decoration: none;
+
+}
+
+.navli a:hover {
+
+    border-bottom-color: #2897e5;
+    border-bottom: .308em solid #4fbbde;
+    padding-bottom: 10px;
+
+}
+/*css for header*/
+.hul{
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a91717;
+    font: inherit;
+    padding-top: -40px;
+
+}
+.hli{
+   float: left;
+   list-style-position:inside;
+   border-width: 0px 2px;
+   border-top:hidden;
+   border-left: hidden;
+   border-bottom: hidden;
+}
+.hli a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size:15px;
+    height: 30px;
+    padding-top: 10px;
+    font-family: Helvetica, Arial, freesans, sans-serif;
+}
+.hli a:hover{
+    border-bottom-color: #2897e5;
+    border-bottom: .308em solid #fff;
+    padding-bottom: 0;
+}
+
+/*css for heder 2*/
+
+.h2ul{
+    list-style-type: none;
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    font: inherit;
+    /*padding-top: -40px;*/
+
+}
+.h2li{
+   float: left;
+   list-style-position:inside;
+   /*border: 0.5px solid grey;*/
+   border-top:hidden;
+   border-left: hidden;
+   border-bottom: hidden;
+}
+.h2li a{
+    display: block;
+    color: #000;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size:15px;
+    height: 30px;
+    padding-top: 10px;
+    font-family: Helvetica, Arial, freesans, sans-serif;
+}
+.h2li a:hover{
+    border-bottom-color: #2897e5;
+    border-bottom: .308em solid #bb1919;
+    padding-bottom: 0;
+}
+
+.bbc_icon{
+
+    height: 27px;
+    width: 80px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*line-height: px;*/
+    border-right: hidden;
+    opacity: 0.8;
+
+}
+
+/*css for other horizontal li*/
+.oli{
+   float: left;
+   list-style-position:inside;
+   border:hidden;
+}
+.oli a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    border-color: black;
+    font-family: Helvetica, Arial, freesans, sans-serif;
+}
+
+/*style for social media*/
+
+.fb{
+    color: #3b5998;
+    text-decoration: none;
+    height: 44px;
+    width: 44px;
+    padding-left: 200px;
+}
+.fb hover
+{
+    /*background-color: #8B9DC3;*/
+    fill: #0084ff;
+    background-color: lightblue;
+}
+.twitter{
+    color: #3b5998;
+    text-decoration: none;
+    height: 44px;
+    width: 44px;   
+}
+.envelope{
+    color: #3b5998;
+    text-decoration: none;
+    height: 44px;
+    width: 44px;
+}
+.share{
+    color: #3b5998;
+    text-decoration: none;
+    height: 44px;
+    width: 44px;
+}
+input[type=text]:focus {
+    width: 200px;
+}
